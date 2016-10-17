@@ -6,7 +6,7 @@ using namespace cv;
 
 int main(int argc, char** argv )
 {
-    cvNamedWindow( "My Window", 1 );
+    cvNamedWindow( "My Window", 1 );//mcmap
     IplImage *img = cvCreateImage( cvSize( 640, 480 ), IPL_DEPTH_8U, 1 );
     CvFont font;
     double hScale = 1.0;
